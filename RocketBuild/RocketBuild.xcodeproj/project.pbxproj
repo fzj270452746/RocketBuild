@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28C2F1643005130A00CC024A /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C2F1633005130A00CC024A /* AdServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		28C2F1663005131100CC024A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C2F1653005131100CC024A /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		4FE49D18B4496E12D9A6EDE9 /* Pods_RocketBuild.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5181DB7458DFEB34CF2D1F82 /* Pods_RocketBuild.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		280806522FFD4E6800E4FFBE /* RocketBuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RocketBuild.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C2F1633005130A00CC024A /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
+		28C2F1653005131100CC024A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		39E4F8B8A714D456BD384B9C /* Pods-RocketBuild.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RocketBuild.debug.xcconfig"; path = "Target Support Files/Pods-RocketBuild/Pods-RocketBuild.debug.xcconfig"; sourceTree = "<group>"; };
 		5181DB7458DFEB34CF2D1F82 /* Pods_RocketBuild.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RocketBuild.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B93A9FE63FEC92E088C1D2 /* Pods-RocketBuild.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RocketBuild.release.xcconfig"; path = "Target Support Files/Pods-RocketBuild/Pods-RocketBuild.release.xcconfig"; sourceTree = "<group>"; };
@@ -43,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28C2F1663005131100CC024A /* AdSupport.framework in Frameworks */,
+				28C2F1643005130A00CC024A /* AdServices.framework in Frameworks */,
 				4FE49D18B4496E12D9A6EDE9 /* Pods_RocketBuild.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,6 +86,8 @@
 		B78EFA64076E93E7DF41E571 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				28C2F1653005131100CC024A /* AdSupport.framework */,
+				28C2F1633005130A00CC024A /* AdServices.framework */,
 				5181DB7458DFEB34CF2D1F82 /* Pods_RocketBuild.framework */,
 			);
 			name = Frameworks;
@@ -96,6 +104,7 @@
 				2808064E2FFD4E6800E4FFBE /* Sources */,
 				2808064F2FFD4E6800E4FFBE /* Frameworks */,
 				280806502FFD4E6800E4FFBE /* Resources */,
+				D57828DB0CD35E1B90DF0D91 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +163,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		D57828DB0CD35E1B90DF0D91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RocketBuild/Pods-RocketBuild-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RocketBuild/Pods-RocketBuild-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RocketBuild/Pods-RocketBuild-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F9047A2601F536E7A411B467 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -201,6 +231,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RocketBuild/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "RocketBuild Mahjong";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use your data to make the app experience better and show ads that are more relevant to you";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -210,7 +241,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ROCB.RocketBuild;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -239,6 +270,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RocketBuild/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "RocketBuild Mahjong";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use your data to make the app experience better and show ads that are more relevant to you";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -248,7 +280,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ROCB.RocketBuild;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;

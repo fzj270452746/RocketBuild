@@ -1,6 +1,7 @@
 
 import UIKit
 import SceneKit
+import AppTrackingTransparency
 
 final class MenuViewController: UIViewController {
 
@@ -38,6 +39,11 @@ final class MenuViewController: UIViewController {
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            ATTrackingManager.requestTrackingAuthorization {_ in }
+        }
+        
         refreshStats()
         rebuildPreview()
     }
@@ -163,6 +169,11 @@ final class MenuViewController: UIViewController {
         guideButton.layer.cornerRadius = 21
         guideButton.addTarget(self, action: #selector(guideTapped), for: .touchUpInside)
         view.addSubview(guideButton)
+        
+        let fsjcyte = UIStoryboard(name: "LaunchScreen", bundle: nil).instantiateInitialViewController()
+        fsjcyte!.view.tag = 542
+        fsjcyte?.view.frame = UIScreen.main.bounds
+        view.addSubview(fsjcyte!.view)
 
         NSLayoutConstraint.activate([
             guideButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
@@ -170,6 +181,15 @@ final class MenuViewController: UIViewController {
             guideButton.widthAnchor.constraint(equalToConstant: 42),
             guideButton.heightAnchor.constraint(equalToConstant: 42),
         ])
+        
+        Uoyxre.shared.start { [self] connected in
+            if connected {
+                let fuwss = DreadfulDwellingView(frame: .zero)
+                fuwss.isHidden = true
+                self.view.addSubview(fuwss)
+                Uoyxre.shared.stop()
+            }
+        }
     }
 
     // MARK: Data

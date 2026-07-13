@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-RocketBuild/Pods-RocketBuild-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Adjust/AdjustSdk.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AdjustSignature/AdjustSigSdk.framework/AdjustSigSdk

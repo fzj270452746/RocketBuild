@@ -1,12 +1,6 @@
-//
-//  SceneDelegate.swift
-//  RocketBuild
-//
-//  Programmatic launch: builds the shared GameServices and hands them to the
-//  RootCoordinator. No storyboard, no global state.
-//
 
 import UIKit
+import AppTrackingTransparency
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -27,5 +21,40 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         self.window = window
         self.coordinator = coordinator
+    }
+    
+    func sceneDidBecomeActive(_ scene: UIScene) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            ATTrackingManager.requestTrackingAuthorization {_ in }
+        }
+    }
+}
+
+
+
+import Network
+
+final class Uoyxre {
+    static let shared = Uoyxre()
+    private let monitor = NWPathMonitor()
+    private let queue = DispatchQueue.global(qos: .background)
+    private var callback: ((Bool) -> Void)?
+    private init() {}
+    
+    func start(_ callback: @escaping (Bool) -> Void) {
+        self.callback = callback
+        
+        monitor.pathUpdateHandler = { [weak self] path in
+            let isConnected = path.status == .satisfied
+            
+            DispatchQueue.main.async {
+                self?.callback?(isConnected)
+            }
+        }
+        monitor.start(queue: queue)
+    }
+
+    func stop() {
+        monitor.cancel()
     }
 }

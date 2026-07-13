@@ -1,9 +1,3 @@
-//
-//  AppDelegate.swift
-//  RocketBuild
-//
-//  Created by Hades on 2026/7/7.
-//
 
 import UIKit
 
