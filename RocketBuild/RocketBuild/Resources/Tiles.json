@@ -1,0 +1,750 @@
+[
+  {
+    "id": "dragon_white",
+    "displayName": "White Dragon",
+    "glyph": "白",
+    "suit": "honor",
+    "weight": 3,
+    "ability": {
+      "kind": "shield",
+      "magnitude": 40,
+      "secondary": 6
+    },
+    "statContribution": {
+      "fuel": 0,
+      "speed": 0,
+      "weight": 3,
+      "shield": 40,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 0
+    }
+  },
+  {
+    "id": "dragon_green",
+    "displayName": "Green Dragon",
+    "glyph": "發",
+    "suit": "honor",
+    "weight": 2,
+    "ability": {
+      "kind": "magnet",
+      "magnitude": 6,
+      "secondary": 0
+    },
+    "statContribution": {
+      "fuel": 0,
+      "speed": 0,
+      "weight": 2,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 6,
+      "energyCapacity": 0,
+      "control": 0
+    }
+  },
+  {
+    "id": "dragon_red",
+    "displayName": "Red Dragon",
+    "glyph": "中",
+    "suit": "honor",
+    "weight": 2,
+    "ability": {
+      "kind": "explosion",
+      "magnitude": 5,
+      "secondary": 8
+    },
+    "statContribution": {
+      "fuel": 0,
+      "speed": 0,
+      "weight": 2,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 0
+    }
+  },
+  {
+    "id": "wind_east",
+    "displayName": "East Wind",
+    "glyph": "東",
+    "suit": "honor",
+    "weight": 2,
+    "ability": {
+      "kind": "radar",
+      "magnitude": 12,
+      "secondary": 0
+    },
+    "statContribution": {
+      "fuel": 0,
+      "speed": 0,
+      "weight": 0,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 1
+    }
+  },
+  {
+    "id": "wind_south",
+    "displayName": "South Wind",
+    "glyph": "南",
+    "suit": "honor",
+    "weight": 2,
+    "ability": {
+      "kind": "speedBoost",
+      "magnitude": 3,
+      "secondary": 4
+    },
+    "statContribution": {
+      "fuel": 0,
+      "speed": 3,
+      "weight": 0,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 0
+    }
+  },
+  {
+    "id": "wind_west",
+    "displayName": "West Wind",
+    "glyph": "西",
+    "suit": "honor",
+    "weight": 2,
+    "ability": {
+      "kind": "repairKit",
+      "magnitude": 20,
+      "secondary": 10
+    },
+    "statContribution": {
+      "fuel": 0,
+      "speed": 0,
+      "weight": 2,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 0
+    }
+  },
+  {
+    "id": "wind_north",
+    "displayName": "North Wind",
+    "glyph": "北",
+    "suit": "honor",
+    "weight": 2,
+    "ability": {
+      "kind": "stability",
+      "magnitude": 2,
+      "secondary": 0
+    },
+    "statContribution": {
+      "fuel": 0,
+      "speed": 0,
+      "weight": 1,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 2
+    }
+  },
+  {
+    "id": "wan_1",
+    "displayName": "1 Characters",
+    "glyph": "一萬",
+    "suit": "character",
+    "weight": 1,
+    "ability": {
+      "kind": "fuelCapacity",
+      "magnitude": 17.0,
+      "secondary": 0
+    },
+    "statContribution": {
+      "fuel": 17.0,
+      "speed": 0,
+      "weight": 1,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 0
+    }
+  },
+  {
+    "id": "bamboo_1",
+    "displayName": "1 Bamboo",
+    "glyph": "一條",
+    "suit": "bamboo",
+    "weight": 1,
+    "ability": {
+      "kind": "thruster",
+      "magnitude": 1.3,
+      "secondary": 0
+    },
+    "statContribution": {
+      "fuel": 0,
+      "speed": 1.3,
+      "weight": 1,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 0
+    }
+  },
+  {
+    "id": "dot_1",
+    "displayName": "1 Dots",
+    "glyph": "一筒",
+    "suit": "dot",
+    "weight": 1,
+    "ability": {
+      "kind": "control",
+      "magnitude": 1.0699999999999998,
+      "secondary": 0
+    },
+    "statContribution": {
+      "fuel": 0,
+      "speed": 0,
+      "weight": 1,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 1.0699999999999998
+    }
+  },
+  {
+    "id": "wan_2",
+    "displayName": "2 Characters",
+    "glyph": "二萬",
+    "suit": "character",
+    "weight": 2,
+    "ability": {
+      "kind": "fuelCapacity",
+      "magnitude": 22.0,
+      "secondary": 0
+    },
+    "statContribution": {
+      "fuel": 22.0,
+      "speed": 0,
+      "weight": 2,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 0
+    }
+  },
+  {
+    "id": "bamboo_2",
+    "displayName": "2 Bamboo",
+    "glyph": "二條",
+    "suit": "bamboo",
+    "weight": 2,
+    "ability": {
+      "kind": "thruster",
+      "magnitude": 1.8,
+      "secondary": 0
+    },
+    "statContribution": {
+      "fuel": 0,
+      "speed": 1.8,
+      "weight": 2,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 0
+    }
+  },
+  {
+    "id": "dot_2",
+    "displayName": "2 Dots",
+    "glyph": "二筒",
+    "suit": "dot",
+    "weight": 1,
+    "ability": {
+      "kind": "control",
+      "magnitude": 1.44,
+      "secondary": 0
+    },
+    "statContribution": {
+      "fuel": 0,
+      "speed": 0,
+      "weight": 1,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 1.44
+    }
+  },
+  {
+    "id": "wan_3",
+    "displayName": "3 Characters",
+    "glyph": "三萬",
+    "suit": "character",
+    "weight": 2,
+    "ability": {
+      "kind": "fuelCapacity",
+      "magnitude": 27.0,
+      "secondary": 0
+    },
+    "statContribution": {
+      "fuel": 27.0,
+      "speed": 0,
+      "weight": 2,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 0
+    }
+  },
+  {
+    "id": "bamboo_3",
+    "displayName": "3 Bamboo",
+    "glyph": "三條",
+    "suit": "bamboo",
+    "weight": 2,
+    "ability": {
+      "kind": "thruster",
+      "magnitude": 2.3,
+      "secondary": 0
+    },
+    "statContribution": {
+      "fuel": 0,
+      "speed": 2.3,
+      "weight": 2,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 0
+    }
+  },
+  {
+    "id": "dot_3",
+    "displayName": "3 Dots",
+    "glyph": "三筒",
+    "suit": "dot",
+    "weight": 1,
+    "ability": {
+      "kind": "control",
+      "magnitude": 1.8099999999999998,
+      "secondary": 0
+    },
+    "statContribution": {
+      "fuel": 0,
+      "speed": 0,
+      "weight": 1,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 1.8099999999999998
+    }
+  },
+  {
+    "id": "wan_4",
+    "displayName": "4 Characters",
+    "glyph": "四萬",
+    "suit": "character",
+    "weight": 2,
+    "ability": {
+      "kind": "fuelCapacity",
+      "magnitude": 32.0,
+      "secondary": 0
+    },
+    "statContribution": {
+      "fuel": 32.0,
+      "speed": 0,
+      "weight": 2,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 0
+    }
+  },
+  {
+    "id": "bamboo_4",
+    "displayName": "4 Bamboo",
+    "glyph": "四條",
+    "suit": "bamboo",
+    "weight": 2,
+    "ability": {
+      "kind": "thruster",
+      "magnitude": 2.8,
+      "secondary": 0
+    },
+    "statContribution": {
+      "fuel": 0,
+      "speed": 2.8,
+      "weight": 2,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 0
+    }
+  },
+  {
+    "id": "dot_4",
+    "displayName": "4 Dots",
+    "glyph": "四筒",
+    "suit": "dot",
+    "weight": 1,
+    "ability": {
+      "kind": "control",
+      "magnitude": 2.1799999999999997,
+      "secondary": 0
+    },
+    "statContribution": {
+      "fuel": 0,
+      "speed": 0,
+      "weight": 1,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 2.1799999999999997
+    }
+  },
+  {
+    "id": "wan_5",
+    "displayName": "5 Characters",
+    "glyph": "五萬",
+    "suit": "character",
+    "weight": 2,
+    "ability": {
+      "kind": "fuelCapacity",
+      "magnitude": 37.0,
+      "secondary": 0
+    },
+    "statContribution": {
+      "fuel": 37.0,
+      "speed": 0,
+      "weight": 2,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 0
+    }
+  },
+  {
+    "id": "bamboo_5",
+    "displayName": "5 Bamboo",
+    "glyph": "五條",
+    "suit": "bamboo",
+    "weight": 2,
+    "ability": {
+      "kind": "thruster",
+      "magnitude": 3.3,
+      "secondary": 0
+    },
+    "statContribution": {
+      "fuel": 0,
+      "speed": 3.3,
+      "weight": 2,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 0
+    }
+  },
+  {
+    "id": "dot_5",
+    "displayName": "5 Dots",
+    "glyph": "五筒",
+    "suit": "dot",
+    "weight": 2,
+    "ability": {
+      "kind": "control",
+      "magnitude": 2.55,
+      "secondary": 0
+    },
+    "statContribution": {
+      "fuel": 0,
+      "speed": 0,
+      "weight": 2,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 2.55
+    }
+  },
+  {
+    "id": "wan_6",
+    "displayName": "6 Characters",
+    "glyph": "六萬",
+    "suit": "character",
+    "weight": 3,
+    "ability": {
+      "kind": "fuelCapacity",
+      "magnitude": 42.0,
+      "secondary": 0
+    },
+    "statContribution": {
+      "fuel": 42.0,
+      "speed": 0,
+      "weight": 3,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 0
+    }
+  },
+  {
+    "id": "bamboo_6",
+    "displayName": "6 Bamboo",
+    "glyph": "六條",
+    "suit": "bamboo",
+    "weight": 3,
+    "ability": {
+      "kind": "thruster",
+      "magnitude": 3.8,
+      "secondary": 1
+    },
+    "statContribution": {
+      "fuel": 0,
+      "speed": 3.8,
+      "weight": 3,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 0
+    }
+  },
+  {
+    "id": "dot_6",
+    "displayName": "6 Dots",
+    "glyph": "六筒",
+    "suit": "dot",
+    "weight": 2,
+    "ability": {
+      "kind": "control",
+      "magnitude": 2.92,
+      "secondary": 0
+    },
+    "statContribution": {
+      "fuel": 0,
+      "speed": 0,
+      "weight": 2,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 2.92
+    }
+  },
+  {
+    "id": "wan_7",
+    "displayName": "7 Characters",
+    "glyph": "七萬",
+    "suit": "character",
+    "weight": 3,
+    "ability": {
+      "kind": "fuelCapacity",
+      "magnitude": 47.0,
+      "secondary": 0
+    },
+    "statContribution": {
+      "fuel": 47.0,
+      "speed": 0,
+      "weight": 3,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 0
+    }
+  },
+  {
+    "id": "bamboo_7",
+    "displayName": "7 Bamboo",
+    "glyph": "七條",
+    "suit": "bamboo",
+    "weight": 3,
+    "ability": {
+      "kind": "thruster",
+      "magnitude": 4.3,
+      "secondary": 1
+    },
+    "statContribution": {
+      "fuel": 0,
+      "speed": 4.3,
+      "weight": 3,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 0
+    }
+  },
+  {
+    "id": "dot_7",
+    "displayName": "7 Dots",
+    "glyph": "七筒",
+    "suit": "dot",
+    "weight": 2,
+    "ability": {
+      "kind": "control",
+      "magnitude": 3.29,
+      "secondary": 1
+    },
+    "statContribution": {
+      "fuel": 0,
+      "speed": 0,
+      "weight": 2,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 3.29
+    }
+  },
+  {
+    "id": "wan_8",
+    "displayName": "8 Characters",
+    "glyph": "八萬",
+    "suit": "character",
+    "weight": 3,
+    "ability": {
+      "kind": "fuelCapacity",
+      "magnitude": 52.0,
+      "secondary": 0
+    },
+    "statContribution": {
+      "fuel": 52.0,
+      "speed": 0,
+      "weight": 3,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 0
+    }
+  },
+  {
+    "id": "bamboo_8",
+    "displayName": "8 Bamboo",
+    "glyph": "八條",
+    "suit": "bamboo",
+    "weight": 3,
+    "ability": {
+      "kind": "thruster",
+      "magnitude": 4.8,
+      "secondary": 1
+    },
+    "statContribution": {
+      "fuel": 0,
+      "speed": 4.8,
+      "weight": 3,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 0
+    }
+  },
+  {
+    "id": "dot_8",
+    "displayName": "8 Dots",
+    "glyph": "八筒",
+    "suit": "dot",
+    "weight": 2,
+    "ability": {
+      "kind": "control",
+      "magnitude": 3.66,
+      "secondary": 1
+    },
+    "statContribution": {
+      "fuel": 0,
+      "speed": 0,
+      "weight": 2,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 3.66
+    }
+  },
+  {
+    "id": "wan_9",
+    "displayName": "9 Characters",
+    "glyph": "九萬",
+    "suit": "character",
+    "weight": 4,
+    "ability": {
+      "kind": "fuelCapacity",
+      "magnitude": 57.0,
+      "secondary": 0
+    },
+    "statContribution": {
+      "fuel": 57.0,
+      "speed": 0,
+      "weight": 4,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 0
+    }
+  },
+  {
+    "id": "bamboo_9",
+    "displayName": "9 Bamboo",
+    "glyph": "九條",
+    "suit": "bamboo",
+    "weight": 3,
+    "ability": {
+      "kind": "thruster",
+      "magnitude": 5.3,
+      "secondary": 1
+    },
+    "statContribution": {
+      "fuel": 0,
+      "speed": 5.3,
+      "weight": 3,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 0
+    }
+  },
+  {
+    "id": "dot_9",
+    "displayName": "9 Dots",
+    "glyph": "九筒",
+    "suit": "dot",
+    "weight": 2,
+    "ability": {
+      "kind": "control",
+      "magnitude": 4.03,
+      "secondary": 1
+    },
+    "statContribution": {
+      "fuel": 0,
+      "speed": 0,
+      "weight": 2,
+      "shield": 0,
+      "heatResist": 0,
+      "magnetRange": 0,
+      "energyCapacity": 0,
+      "control": 4.03
+    }
+  }
+]
