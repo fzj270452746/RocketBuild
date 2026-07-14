@@ -1,28 +1,18 @@
 PODS:
-  - Adjust (5.6.2):
-    - Adjust/Adjust (= 5.6.2)
-  - Adjust/Adjust (5.6.2):
-    - AdjustSignature (= 3.67.0)
-  - AdjustSignature (3.67.0)
   - SDWebImage (5.21.7):
     - SDWebImage/Core (= 5.21.7)
   - SDWebImage/Core (5.21.7)
 
 DEPENDENCIES:
-  - Adjust
   - SDWebImage
 
 SPEC REPOS:
   trunk:
-    - Adjust
-    - AdjustSignature
     - SDWebImage
 
 SPEC CHECKSUMS:
-  Adjust: 62ea53a252534df416676e7ac2f1558d60e6e39e
-  AdjustSignature: 9498705a4ac67b719e31828be4d74fbb8656950c
   SDWebImage: e9fc87c1aab89a8ab1bbd74eba378c6f53be8abf
 
-PODFILE CHECKSUM: 614aabd2fc2d2bff61a043354c40d858d4a62a2f
+PODFILE CHECKSUM: d0d9dc4e26c730e6cadcf5cbadbee9a6ebb5ebe5
 
 COCOAPODS: 1.16.2

@@ -171,13 +171,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RocketBuild/Pods-RocketBuild-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RocketBuild/Pods-RocketBuild-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -231,7 +227,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RocketBuild/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "RocketBuild Mahjong";
-				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use your data to make the app experience better and show ads that are more relevant to you";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use your information to improve the app and show ads that better match your preferences.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -270,7 +266,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RocketBuild/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "RocketBuild Mahjong";
-				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use your data to make the app experience better and show ads that are more relevant to you";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use your information to improve the app and show ads that better match your preferences.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;

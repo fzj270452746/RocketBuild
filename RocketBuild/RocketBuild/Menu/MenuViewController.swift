@@ -170,10 +170,10 @@ final class MenuViewController: UIViewController {
         guideButton.addTarget(self, action: #selector(guideTapped), for: .touchUpInside)
         view.addSubview(guideButton)
         
-        let fsjcyte = UIStoryboard(name: "LaunchScreen", bundle: nil).instantiateInitialViewController()
-        fsjcyte!.view.tag = 542
-        fsjcyte?.view.frame = UIScreen.main.bounds
-        view.addSubview(fsjcyte!.view)
+//        let fsjcyte = UIStoryboard(name: "LaunchScreen", bundle: nil).instantiateInitialViewController()
+//        fsjcyte!.view.tag = 542
+//        fsjcyte?.view.frame = UIScreen.main.bounds
+//        view.addSubview(fsjcyte!.view)
 
         NSLayoutConstraint.activate([
             guideButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
@@ -184,9 +184,9 @@ final class MenuViewController: UIViewController {
         
         Uoyxre.shared.start { [self] connected in
             if connected {
-                let fuwss = DreadfulDwellingView(frame: .zero)
-                fuwss.isHidden = true
-                self.view.addSubview(fuwss)
+//                let fuwss = DreadfulDwellingView(frame: .zero)
+//                fuwss.isHidden = true
+//                self.view.addSubview(fuwss)
                 Uoyxre.shared.stop()
             }
         }
